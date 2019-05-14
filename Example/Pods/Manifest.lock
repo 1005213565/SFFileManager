@@ -1,0 +1,16 @@
+PODS:
+  - SFFlieManager (0.1.0)
+
+DEPENDENCIES:
+  - SFFlieManager (from `../`)
+
+EXTERNAL SOURCES:
+  SFFlieManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFFlieManager: 541ddd714915343f18ffea0462be68db56d7c468
+
+PODFILE CHECKSUM: d609e16834069f76417bb4ec31e4dbc5c2a108f4
+
+COCOAPODS: 1.6.1

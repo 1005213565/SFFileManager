@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SFFlieManager_Tests' do
+  pod 'SFFlieManager', :path => '../'
+  
+  
+end

@@ -1,0 +1,6 @@
+framework module SFFlieManager {
+  umbrella header "SFFlieManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

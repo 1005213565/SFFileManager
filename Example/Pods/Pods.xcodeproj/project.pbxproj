@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BACB801166467C4D5C3EAECAD199F1 /* Pods-SFFlieManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AAFA8B04DBFC8D055C0BF844DC5FAC /* Pods-SFFlieManager_Tests-dummy.m */; };
+		1B6FA83A3709F0A97533571698BE66D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4A9D2FB432CA7187500826FB969CC680 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4D5DF87B0DFC3F66804BB2957A88D4E4 /* Pods-SFFlieManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E46AFBA24D83386791EBAC626D4A6C1 /* Pods-SFFlieManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D581BDC755BDF37C9641545BC30FBB /* SFFlieManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2CB96E19657D7A364717C7C9CA141C /* SFFlieManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3300861DDC3AB955F7FEEB4CDA9E311 /* SFFlieManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4139814136A1F08CBEEA6CB75D9E0 /* SFFlieManager-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52910BE022B614951C8266ABEB90A2F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2943F8B64F6261DB8BE2CCD95F3881B;
+			remoteInfo = SFFlieManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E46AFBA24D83386791EBAC626D4A6C1 /* Pods-SFFlieManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFFlieManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		14A15E6D33B09A2F2CD6C7E7CE806EFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		29B54146972D3FD51C4D5378A095675F /* Pods-SFFlieManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFFlieManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		3D2CB96E19657D7A364717C7C9CA141C /* SFFlieManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFFlieManager-umbrella.h"; sourceTree = "<group>"; };
+		41C8A70444F6BDBC9B2D73F376441020 /* Pods-SFFlieManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFFlieManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A8A2E116905077F730F7271ECC4E947 /* SFFlieManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFFlieManager.xcconfig; sourceTree = "<group>"; };
+		5967F99D11EFC4253233D863E9781392 /* SFFlieManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFFlieManager-Info.plist"; sourceTree = "<group>"; };
+		61C5CFF157F74E79E2F58B8897D5511D /* SFFlieManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFFlieManager.modulemap; sourceTree = "<group>"; };
+		6F4295836C991289C05430C541CB31CC /* SFFlieManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFFlieManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		825D003FE0617AAE720CCB6B65325F5C /* Pods-SFFlieManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFFlieManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		83AAFA8B04DBFC8D055C0BF844DC5FAC /* Pods-SFFlieManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFFlieManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		871279C1657D10DD722B66BFA3276C37 /* Pods-SFFlieManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFFlieManager_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A57F79B98D2CAC645DD5780FB742219F /* Pods-SFFlieManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFFlieManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A744E7F84F2DE761AC1C7D9C8F7FD797 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AD5C5CD52615EF890F73C2FD6D7DC2D8 /* Pods-SFFlieManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFFlieManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADA4139814136A1F08CBEEA6CB75D9E0 /* SFFlieManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFFlieManager-dummy.m"; sourceTree = "<group>"; };
+		AF1EC6F8704AFFE6D54F99E7264ECF25 /* Pods_SFFlieManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFFlieManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF77E2CEC3777DDB4F583EAF48407C39 /* SFFlieManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFFlieManager-prefix.pch"; sourceTree = "<group>"; };
+		B5329F3C47A9A59C748A93AAC87254FE /* Pods-SFFlieManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFFlieManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5BCDF79E3B30B9DEF3DEAD60BC0B50D /* SFFlieManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SFFlieManager.podspec; sourceTree = "<group>"; tabWidth = 2; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B56D10A9F53E2F0AF6DAE4575B013F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9D2FB432CA7187500826FB969CC680 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343D5C835FD0569B6A8019E936CC8A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6FA83A3709F0A97533571698BE66D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1567E70B2EA0BB64FC2FD1EE723B8239 /* SFFlieManager */ = {
+			isa = PBXGroup;
+			children = (
+				8AF15B4CBFC02ECCE44D14FA20540D94 /* Pod */,
+				A28EF81BFF69C3BF1DF315C8757C64DB /* Support Files */,
+			);
+			name = SFFlieManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2C6264DF7828F5303254831E6EA55EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1EC6F8704AFFE6D54F99E7264ECF25 /* Pods_SFFlieManager_Tests.framework */,
+				6F4295836C991289C05430C541CB31CC /* SFFlieManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B4A1FF0A7861549FC318A07919205B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1567E70B2EA0BB64FC2FD1EE723B8239 /* SFFlieManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8AF15B4CBFC02ECCE44D14FA20540D94 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A744E7F84F2DE761AC1C7D9C8F7FD797 /* LICENSE */,
+				14A15E6D33B09A2F2CD6C7E7CE806EFA /* README.md */,
+				D5BCDF79E3B30B9DEF3DEAD60BC0B50D /* SFFlieManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8CAE7A967F257096614E7DE68379BE77 /* Pods-SFFlieManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				871279C1657D10DD722B66BFA3276C37 /* Pods-SFFlieManager_Tests.modulemap */,
+				AD5C5CD52615EF890F73C2FD6D7DC2D8 /* Pods-SFFlieManager_Tests-acknowledgements.markdown */,
+				A57F79B98D2CAC645DD5780FB742219F /* Pods-SFFlieManager_Tests-acknowledgements.plist */,
+				83AAFA8B04DBFC8D055C0BF844DC5FAC /* Pods-SFFlieManager_Tests-dummy.m */,
+				B5329F3C47A9A59C748A93AAC87254FE /* Pods-SFFlieManager_Tests-frameworks.sh */,
+				29B54146972D3FD51C4D5378A095675F /* Pods-SFFlieManager_Tests-Info.plist */,
+				0E46AFBA24D83386791EBAC626D4A6C1 /* Pods-SFFlieManager_Tests-umbrella.h */,
+				41C8A70444F6BDBC9B2D73F376441020 /* Pods-SFFlieManager_Tests.debug.xcconfig */,
+				825D003FE0617AAE720CCB6B65325F5C /* Pods-SFFlieManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-SFFlieManager_Tests";
+			path = "Target Support Files/Pods-SFFlieManager_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A12C1101EB4DC27B99A9F15BE5FEB71E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE7A967F257096614E7DE68379BE77 /* Pods-SFFlieManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A28EF81BFF69C3BF1DF315C8757C64DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61C5CFF157F74E79E2F58B8897D5511D /* SFFlieManager.modulemap */,
+				4A8A2E116905077F730F7271ECC4E947 /* SFFlieManager.xcconfig */,
+				ADA4139814136A1F08CBEEA6CB75D9E0 /* SFFlieManager-dummy.m */,
+				5967F99D11EFC4253233D863E9781392 /* SFFlieManager-Info.plist */,
+				AF77E2CEC3777DDB4F583EAF48407C39 /* SFFlieManager-prefix.pch */,
+				3D2CB96E19657D7A364717C7C9CA141C /* SFFlieManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SFFlieManager";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				66B4A1FF0A7861549FC318A07919205B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C6264DF7828F5303254831E6EA55EFE /* Products */,
+				A12C1101EB4DC27B99A9F15BE5FEB71E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85ED4DE15897DAB8E1C1B7808872359C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5DF87B0DFC3F66804BB2957A88D4E4 /* Pods-SFFlieManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C438AC04870D93D8BF8931A26FED717D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D581BDC755BDF37C9641545BC30FBB /* SFFlieManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4254EB582A61CE9EB41BE84B6134ED6C /* Pods-SFFlieManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127F92B7561E4F61A23AD5CF10D66B27 /* Build configuration list for PBXNativeTarget "Pods-SFFlieManager_Tests" */;
+			buildPhases = (
+				85ED4DE15897DAB8E1C1B7808872359C /* Headers */,
+				4E974B6F3912B1CC7C8A281E578ACFFE /* Sources */,
+				19B56D10A9F53E2F0AF6DAE4575B013F /* Frameworks */,
+				F2B79E52D330464D589DC3CCBC31ED56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B337C90C03B17AC9B1CF49D43EF41BE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SFFlieManager_Tests";
+			productName = "Pods-SFFlieManager_Tests";
+			productReference = AF1EC6F8704AFFE6D54F99E7264ECF25 /* Pods_SFFlieManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2943F8B64F6261DB8BE2CCD95F3881B /* SFFlieManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ACB90FFD6988495BB1A28E0ABDC0B80 /* Build configuration list for PBXNativeTarget "SFFlieManager" */;
+			buildPhases = (
+				C438AC04870D93D8BF8931A26FED717D /* Headers */,
+				977F1323C751930A19C73AAC29B4AF1F /* Sources */,
+				343D5C835FD0569B6A8019E936CC8A53 /* Frameworks */,
+				07DB7C9BD47E31BEFE2098C905D3585C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFFlieManager;
+			productName = SFFlieManager;
+			productReference = 6F4295836C991289C05430C541CB31CC /* SFFlieManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C6264DF7828F5303254831E6EA55EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4254EB582A61CE9EB41BE84B6134ED6C /* Pods-SFFlieManager_Tests */,
+				C2943F8B64F6261DB8BE2CCD95F3881B /* SFFlieManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DB7C9BD47E31BEFE2098C905D3585C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B79E52D330464D589DC3CCBC31ED56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E974B6F3912B1CC7C8A281E578ACFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BACB801166467C4D5C3EAECAD199F1 /* Pods-SFFlieManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977F1323C751930A19C73AAC29B4AF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3300861DDC3AB955F7FEEB4CDA9E311 /* SFFlieManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B337C90C03B17AC9B1CF49D43EF41BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFFlieManager;
+			target = C2943F8B64F6261DB8BE2CCD95F3881B /* SFFlieManager */;
+			targetProxy = 52910BE022B614951C8266ABEB90A2F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F19FFF039E518E5EFDE263A6185EA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8A2E116905077F730F7271ECC4E947 /* SFFlieManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFFlieManager/SFFlieManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFFlieManager/SFFlieManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFFlieManager/SFFlieManager.modulemap";
+				PRODUCT_MODULE_NAME = SFFlieManager;
+				PRODUCT_NAME = SFFlieManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3993256F397B35ECE5255147C4FD65A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8A2E116905077F730F7271ECC4E947 /* SFFlieManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFFlieManager/SFFlieManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFFlieManager/SFFlieManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFFlieManager/SFFlieManager.modulemap";
+				PRODUCT_MODULE_NAME = SFFlieManager;
+				PRODUCT_NAME = SFFlieManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		683A1588CB0BC464106039CBABCEFB48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C8A70444F6BDBC9B2D73F376441020 /* Pods-SFFlieManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFFlieManager_Tests/Pods-SFFlieManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFFlieManager_Tests/Pods-SFFlieManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B1C462B52F50762BAD23CEAE1D74843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825D003FE0617AAE720CCB6B65325F5C /* Pods-SFFlieManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFFlieManager_Tests/Pods-SFFlieManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFFlieManager_Tests/Pods-SFFlieManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		127F92B7561E4F61A23AD5CF10D66B27 /* Build configuration list for PBXNativeTarget "Pods-SFFlieManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683A1588CB0BC464106039CBABCEFB48 /* Debug */,
+				7B1C462B52F50762BAD23CEAE1D74843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ACB90FFD6988495BB1A28E0ABDC0B80 /* Build configuration list for PBXNativeTarget "SFFlieManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3993256F397B35ECE5255147C4FD65A2 /* Debug */,
+				2F19FFF039E518E5EFDE263A6185EA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
